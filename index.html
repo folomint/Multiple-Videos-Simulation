@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Instagram Autoplay Demo</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+  <h1>Instagram Autoplay Views ❤️</h1>
+  <p class="credit">Provided by <b>M U R D</b> (Murad)</p>
+
+  <div class="card">
+    <input id="instaLink" type="text" placeholder="Paste Instagram Reel / Video Link">
+    <div class="buttons">
+      <button onclick="setCount(5)">5</button>
+      <button onclick="setCount(10)">10</button>
+      <button onclick="setCount(15)">15</button>
+      <button onclick="setCount(20)">20</button>
+      <button onclick="setCount(30)">30</button>
+      <button onclick="setCount(50)">50</button>
+    </div>
+    <button class="generate" onclick="generate()">Generate Autoplay</button>
+  </div>
+
+  <div id="videos" class="grid"></div>
+
+  <p class="disclaimer">
+    For educational & UI demonstration purposes only.<br>
+    No real or fake views are generated.
+  </p>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
